@@ -1,0 +1,33 @@
+1 ICON "app.ico"
+
+1 24 "app.manifest"
+
+1 VERSIONINFO
+FILEVERSION     2,1,1,0
+PRODUCTVERSION  2,1,1,0
+FILEFLAGSMASK   0x3fL
+FILEFLAGS       0x0L
+FILEOS          0x40004L
+FILETYPE        0x1L
+FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName",      "内部开发工具"
+            VALUE "FileDescription",  "编码工具箱 — Base64 / SHA-256 / 接口测试"
+            VALUE "FileVersion",      "2.1.1.0"
+            VALUE "InternalName",     "B64ShaTool"
+            VALUE "LegalCopyright",   "仅供内部使用 / For internal use only"
+            VALUE "OriginalFilename", "B64ShaTool.exe"
+            VALUE "ProductName",      "编码工具箱"
+            VALUE "ProductVersion",   "2.1.1.0"
+            VALUE "Comments",         "①②③ 本机离线完成；④ 接口测试仅在用户点击发送时访问所填地址"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END

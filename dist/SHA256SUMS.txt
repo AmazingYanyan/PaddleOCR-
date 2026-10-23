@@ -1,0 +1,8 @@
+# 编码工具箱（Base64 / SHA-256 / 接口测试）构建校验值
+# 构建时间：2026-10-22 17:47:54 +0800
+# 工具链  ：llvm  (/Users/eddie/Documents/WorkBuddy/Base64_SHA256/.toolchain/llvm/bin)
+# 传输到离线机器后，可用  certutil -hashfile <文件名> SHA256  核对以下值
+# 并在目标机上运行  B64ShaTool_x64.exe /selftest  确认算法正常
+
+94c51f51f9b221ff3499da18cdb980394eb324e52825f5e24bb2c1a811978ac0  B64ShaTool_x64.exe (536576 字节)
+fa8468bb3173c696feed2e2803c83919cbaf2436dd946c3689e01a98c629e185  B64ShaTool_x86.exe (524288 字节)
